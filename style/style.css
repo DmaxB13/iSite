@@ -1,0 +1,511 @@
+/* Here is the roots */
+
+:root {
+    --gradient1: #0B0921;
+    --gradient2: #120C2F;
+    --container: #030712;
+    --text: #F9FAFB;
+    --secondary-text: #B0BAC5;
+    --button: #FE22F8;
+    --xtra-color: #8c52ff;
+    --warning: #ea3f3f;
+}
+
+/* Here is the real deal */
+
+body {
+    background-image: linear-gradient(to right, var(--gradient1), var(--gradient2));
+    min-height: 1000px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.iSite {
+    position: fixed;
+    width: 88.93px;
+    height: 50px;
+    top: 20px;
+    left: 30px;
+    color: var(--text);
+    font-size: 40px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    z-index: 100;
+}
+
+#logo {
+    position: relative;
+    top: 50px;
+    height: 270px;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: auto;
+    flex-shrink: inherit;
+}
+
+.text-container {
+    font-size: 30px;
+    color: var(--text);
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disclamer {
+    font-size: 26px;
+    position: relative;
+    top: 80px;
+    color: #ea3f3f;
+}
+
+#arrow {
+    position: relative;
+    bottom: 30px;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 275px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#container1 {
+    background-color: var(--container);
+    width: 700px;
+    height: 290px;
+    position: absolute;
+    top: 1000px;
+    left: -10px;
+    border-radius: 10px;
+    transform: rotate(-1.5deg);
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: left;
+    text-wrap: wrap;
+    flex-shrink: 5;
+    display: flex;
+}
+#container2 {
+    background-color: var(--container);
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    top: 1350px;
+    right: 0px;
+    border-radius: 10px;
+    transform: rotate(0.5deg);
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: right;
+    text-wrap: wrap;
+}
+
+.Text {
+    color: var(--text);
+}
+#Title1 {
+    font-size: 37px;
+    margin: 35px;
+}
+#Text1 {
+    font-size: 27px; 
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#Title2 {
+    font-size: 37px;
+    margin: 35px;
+}
+#Text2 {
+    font-size: 27px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.pear-news {
+    position: relative;
+    top: 1420px;
+}
+.news-link {
+    font-size: 145px;
+    color: var(--text);
+}
+.news-bio {
+    font-size: 40px;
+    color: var(--secondary-text);
+}
+
+/* Here we have the code for every company */
+.top3 {
+    position: relative;
+    top: 1800px;
+    font-size: 80px;
+    color: var(--text);
+}
+
+#co {
+    top: 1800px;
+    bottom: 50px;
+    height: 600px;
+    position: relative;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.co-template {
+    background-color: var(--container);
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    margin: 50px;
+    border: 0px solid transparent;
+    text-wrap: wrap;
+    position: relative;
+    transition: all ease-in-out .15s;  
+    align-self: center;
+    justify-self: center;
+}
+.co-template:hover {
+    background-color: var(--container);
+    width: 360px;
+    height: 460px;
+    border-radius: 50px;
+    margin: 50px;
+    text-wrap: wrap;
+    position: relative;
+    transition: all ease-in-out .15s;   
+}
+.co-logo {
+    height: 200px;
+    width: auto;
+    position: relative;
+    top: -10px;
+    border-radius: 50%;
+}
+.co-logo-2lines {
+    height: 200px;
+    width: auto;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+}
+.co-text {
+    color: var(--text);
+    top: 0px;
+    font-size: 50px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    margin-bottom: 0px;
+}
+.co-creator {
+    display: flex;               /* Enable Flexbox */
+    justify-content: center;     /* Center items horizontally */
+    align-items: center;         /* Center items vertically */
+    height: 70px;               /* Full viewport height */
+    gap: 15px;   
+    top: 30px;
+    position: relative;
+}
+.co-creator-2lines {
+    display: flex;               /* Enable Flexbox */
+    justify-content: center;     /* Center items horizontally */
+    align-items: center;         /* Center items vertically */
+    height: 70px;               /* Full viewport height */
+    gap: 15px;   
+    top: 5px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.creator-name {
+    color: var(--secondary-text);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+}
+.items {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;               /* Center text inside each item */
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.see-all {
+    position: relative;
+    top: 1700px;
+    font-size: 40px;
+    color: var(--secondary-text);
+}
+
+/* Here we have some code for the star tag on the Pear Inc. button */
+
+#star-tag {
+    position: absolute;
+}
+#star-tag svg{
+    position: relative;
+    left: 280px;
+    top: -60px;
+    height: auto;
+    width: 90px;
+    transition: all ease-in-out .15s;
+}
+.co-template:hover #star-tag svg {
+    height: auto;
+    width: 100px;
+}
+
+#planer {
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    top: 2300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#planer-sign {
+    color: var(--text);
+    font-size: 80px;
+    text-align: center;
+    top: 30%;
+}
+
+#plans {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-template {
+    background-color: var(--container);
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    margin: 20px;
+    border: 0px solid transparent;
+    text-wrap: wrap;
+    position: relative;
+    transition: all ease-in-out .15s;  
+    align-self: center;
+    justify-self: center;
+    rotate: 0.5deg;
+}
+
+.plan-name {
+    position: relative;
+    color: var(--text);
+    font-size: 70px;
+    text-align: center;
+    top: -40px;
+}
+
+.plan-price {
+    position: relative;
+    color: var(--secondary-text);
+    text-align: center;
+    top: -100px;
+}
+
+.plan-feature {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-symbol {
+    position: relative;
+    width: 50px;
+    margin: 5px;
+    height: 200px;
+}
+
+.plan-feature-names {
+    top: -10px;
+    position: relative;
+    margin-right: 5px;
+    width: 250px;
+    height: 200px;
+    line-height: 34px;
+    font-size: 13px;
+}
+
+.feature {
+    color: var(--text);
+}
+
+.how-to {
+    position: absolute;
+    top: 220px;
+    font-size: 20px;
+    color: var(--secondary-text);
+    display: flex;
+    text-align: center;
+}
+
+.custom-feature {
+    color: var(--text);
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+}
+
+#how-to {
+    color: var(--secondary-text);
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: -70px;
+}
+
+/* Co sites */
+
+.co-header {
+    position: relative;
+    top: 80px;
+    left: 80px;
+    width: 1350px;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
+.logo-div {
+    border-radius: 50%;
+    width: auto;
+    height: 250px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-wrap: wrap;
+}
+
+.logo-comp {
+    border-radius: 50%;
+    width: auto;
+    height: 250px;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    text-wrap: wrap;
+}
+
+.co-name-sites {
+    position: relative;
+    color: var(--text);
+    font-size: 100px;
+    left: 50px;
+    top: -50px;
+    display: flex;
+    text-wrap: wrap;
+    width: 1000px;
+}
+
+.creator-head-sites {
+    width: auto;
+    height: 35px;
+    position: relative;
+    left: -945px;
+    top: 160px;
+    text-wrap: wrap;
+    display: flex;
+}
+
+.co-creator-sites {
+    color: var(--secondary-text);
+    position: relative;
+    top: -135px;
+    font-size: 40px;
+    left: 350px;
+    display: flex;
+    text-wrap: wrap;
+}
+
+.small-content-sign {
+    color: var(--text);
+    position: relative;
+    font-size: 55px;
+    width: 200px;
+    text-align: center;
+    left: 100px;
+}
+
+.small-content {
+    color: var(--text);
+    position: relative;
+    width: 300px;
+    text-align: center;
+    left: 35px;
+}
+
+.big-content-div {
+    width: 800px;
+    position: absolute;
+    left: 380px;
+    top: 555px;
+}
+
+.big-content-sign {
+    color: var(--text);
+    position: absolute;
+    font-size: 55px;
+    text-align: center;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-content {
+    position: absolute;
+    color: var(--text);
+    
+}
+
+/* sites.html */
+
+#co-sites {
+    top: 0px;
+    bottom: 50px;
+    position: relative;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
