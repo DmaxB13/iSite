@@ -6,7 +6,7 @@
 
 iSite is the one and only website for doing things related to the private Minecraft server MC23, with more features coming! iSite is primarly for the people playing on MC23 so if you dont, you probably wont have any reason to check out the website.
 
-## Newest update:
+## Newest update (changelog):
 releasing soon
 
 ## Developers:
