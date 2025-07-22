@@ -1,0 +1,103 @@
+/* Here is the roots */
+
+:root {
+    --gradient1: #0B0921;
+    --gradient2: #120C2F;
+    --container: #030712;
+    --text: #F9FAFB;
+    --secondary-text: #B0BAC5;
+    --button: #FE22F8;
+    --xtra-color: #8c52ff;
+    --warning: #ea3f3f;
+}
+
+/* Here is the real deal */
+
+body {
+    background-image: linear-gradient(to right, var(--gradient1), var(--gradient2));
+    min-height: 1000px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.iSite {
+    position: fixed;
+    width: 88.93px;
+    height: 50px;
+    top: 20px;
+    left: 30px;
+    color: var(--text);
+    font-size: 40px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    z-index: 100;
+}
+
+
+#players {
+    top: 0px;
+    bottom: 50px;
+    position: relative;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+}
+
+.player {
+    background-color: var(--container);
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    margin: 40px;
+    border: 0px solid transparent;
+    text-wrap: wrap;
+    position: relative;
+    transition: all ease-in-out .15s;  
+    align-self: center;
+    justify-self: center;
+}
+.player:hover {
+    background-color: var(--container);
+    width: 410px;
+    height: 510px;
+    border-radius: 50px;
+    margin: 50px;
+    text-wrap: wrap;
+    position: relative;
+    transition: all ease-in-out .15s;   
+}
+.skin {
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: -10px;
+}
+
+.name {
+    color: var(--text);
+    top: 0px;
+    font-size: 38px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.join-date {
+    color: var(--secondary-text);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+}
