@@ -44,6 +44,15 @@ body {
     flex-wrap: nowrap;
     flex: auto;
     flex-shrink: inherit;
+    background: transparent;
+    border: transparent;
+    transition: all ease-in-out .1s;
+}
+#logo:hover {
+    height: 280px;
+    top: 45px;
+    width: auto;
+    transition: all ease-in-out .1s;
 }
 
 .text-container {
