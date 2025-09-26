@@ -36,14 +36,9 @@ body {
 }
 
 .coming-soon {
-    font-size: 200px;
     color: var(--text);
-    display: flex;
-    text-wrap: wrap;
-
-    width: 800px;
-
-    position: relative;
+    font-size: 700%;
+    font-family: "Lexend", sans-serif;
 }
 
 #flex-div {
@@ -82,4 +77,20 @@ body {
 }
 .title {
     color: var(--text);
+}
+
+.sneak-peaks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bilder {
+    margin: 1%;
+    flex-shrink: inherit;
+    display: flex;
+
+    border-radius: 16px;
+    border: 8px solid var(--xtra-color);
 }
