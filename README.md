@@ -7,7 +7,8 @@
 iSite is the one and only website for doing things related to the private Minecraft server MC23, with more features coming! iSite is primarly for the people playing on MC23 so if you dont, you probably wont have any reason to check out the website.
 
 ## Newest update (changelog):
-Well hello again! This update was VERY small only changing the Pear News site to be sneak peaks of iSite 2.0 (probably releasing around mid-2026).
+ANNOUNCEMENT!
+This site will probably not recieve any new updates (except for new sneak peak photos) because of the development of iSite 2.0. If the site happends to crash because of some reason i will still fix it but it wont get any new features.
 
 ## Developers:
 - DmaxB (just me)
